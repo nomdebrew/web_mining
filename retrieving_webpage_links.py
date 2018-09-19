@@ -9,14 +9,16 @@ Created on Fri Sep  7 02:44:19 2018
 import urllib.request, urllib.parse, urllib.error, re
 from bs4 import BeautifulSoup
 
-#url = input('Enter a url - ') #would allow user to enter a url
-url = 'https://en.wikipedia.org/wiki/Austin_Lucas'
+url = input('Enter a url - ex: https://en.wikipedia.org/wiki/Austin_Lucas (Y to use default) ') #allows user to enter a url
+#url = 'https://en.wikipedia.org/wiki/Austin_Lucas'  #used for testing
+if url == "y" or url == "Y" :
+    url = "https://en.wikipedia.org/wiki/Austin_Lucas"
+
 print('\nBelow is the output for page:',url,"\n")
 
 print("\nUsing Regular Expressions\n")
 
 link_count = 0
-link = 'https://en.wikipedia.org/wiki/Austin_Lucas'
 
 fhand = urllib.request.urlopen(url)
 for line in fhand:
