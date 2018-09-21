@@ -1,0 +1,65 @@
+body {
+	
+	background-image: url("images/bg3.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: black;
+}
+.container {
+	overflow: hidden;
+}
+
+.nav {
+	float: left;	
+	background-color: rgba(175,175,175,0.5);
+	color: white;
+	margin: 10px;
+	height: 100%;
+	width: 160px;
+	padding-right: 20px;
+	padding-top: 30px;
+	padding-bottom: 100%;
+	margin-bottom: -100%;
+	position: fixed;
+}
+
+.nav ul {
+	list-style-type: none;
+}
+
+.main {
+	float: right;
+	background-color: rgba(175,175,175,0.5);
+	margin: 10px;
+	padding: 30px;
+	padding-bottom:100%;
+	margin-bottom: -100%;
+	color:white;
+	width: 400px;
+}
+
+.main h1 {
+	text-align: center;
+}
+
+.main p {
+	text-align: left;
+}
+
+.links {
+	float: 
+}
+
+a:link, a:active {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: lightgray;
+	text-decoration: underline;
+}
+a:visited {
+	color: darkgray;
+	text-decoration: none;
+}
