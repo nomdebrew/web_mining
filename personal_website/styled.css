@@ -21,6 +21,7 @@ body {
 	padding-bottom: 100%;
 	margin-bottom: -100%;
 	position: fixed;
+	text-align: center;
 }
 
 .nav ul {
