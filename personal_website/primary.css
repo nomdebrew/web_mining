@@ -14,31 +14,16 @@ body {
     margin: 0px;
 }
 
-.navtop {
-    padding: 0px;
-    margin: 0px;
-}
-
-.navbottom {
-    position: absolute;
-    bottom: 0px;
+.nav {
+    position: fixed;
+    left: 0;
+    top: 0;
     padding: 0px;
     margin: 0px;
     width: 100%;
 }
 
-.content {
-    padding: 20px;
-    margin: 20px;
-    background-color: rgba(60,60,60, 0.75);
-    color: white;
-}
-
-h1 {
-    text-align: center;
-}
-
-ul {
+.nav ul {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
@@ -46,25 +31,54 @@ ul {
     background-color: rgba(60,60,60, 0.75);
 }
 
-li {
+.nav li {
     float: left;
     padding: 0px;
     margin: 0px;
     font-weight: bold;
 }
 
-li a {
+.nav li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 20px 20px;
+    padding: 24px 16px;
     text-decoration: none;
+    border-radius: 0px 0px 16px 16px;
 }
 
-li a:hover:not(.active) {
+.nav li a:hover:not(.active) {
     background-color: #111;
 }
 
 .active {
     background-color: rgba(255,165,00, 0.6);
+    border-radius: 0px 0px 16px 16px;
 }
+
+
+.content {
+    padding: 20px;
+    margin: 80px 20px;
+    background-color: rgba(60,60,60, 0.75);
+    color: white;
+    border-radius: 20px;
+}
+
+.content ul {
+    padding-left: 8em;
+    font-weight: normal;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    padding-left: 1.5em;
+}
+
+p {
+    padding-left: 3em;
+}
+
