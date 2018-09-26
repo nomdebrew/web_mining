@@ -66,8 +66,14 @@ body {
 }
 
 .content ul {
+    list-style-type: none;
     padding-left: 8em;
     font-weight: normal;
+}
+
+.columns{
+    column-count: 3;
+    column-gap: 30px;
 }
 
 h1 {
@@ -82,3 +88,6 @@ p {
     padding-left: 3em;
 }
 
+.content img {
+    margin: 16px;
+}
